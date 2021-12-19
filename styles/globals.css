@@ -1,16 +1,41 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+body > div {
+  height: 100%;
+  font-family: "Ubuntu Mono";
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.ant-row {
+  height: 100%;
 }
 
-* {
-  box-sizing: border-box;
+.clock-1 {
+  background-color: #ffccc7;
+}
+
+.clock-2 {
+  background-color: #bae7ff;
+}
+
+.clock-3 {
+  background-color: #d9f7be;
+}
+
+.clock {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+}
+
+.date {
+  font-size: 8em;
+}
+
+.time {
+  font-size: 18em;
+}
+
+.note {
+  font-size: 8em;
 }
